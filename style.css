@@ -59,7 +59,6 @@
     right: 0;
     z-index: 1;
     display: block;
-    background-image: url('/logo.png');
 }
 
 .bg-sportify{
@@ -86,6 +85,15 @@
 
 .bg-discord:hover{
     background-color: #4c5c97;
+}
+
+.b-youtube{
+    color: #ffffff;
+    background-color: #FF0000;
+}
+
+.bg-youtube:hover{
+    background-color: #ce0707;
 }
 
 

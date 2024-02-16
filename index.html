@@ -13,28 +13,11 @@
         darkMode: 'class',
       };
     </script>
-    <script>
-      async function IntegrasiApi(){
-          const reslout = document.getElementById("reslout")
-          const type = document.getElementById("type")
-          const srcee = document.getElementById("scree")
-
-          // Api Call
-          let base = "https://www.boredapi.com/api/activity";
-          const req = await fetch(base)
-          const items = await req.json()
-
-          // Api Res
-          reslout.textContent = items.activity
-          type.textContent = `# ${items.type}`
-          type.style.display = "block"
-      }
-  </script>
   </head>
   <body style="font-family: 'Poppins', sans-serif" class="dark:bg-slate-900 bg-white bg-imges">
     <div class="p-4 m-4">
       <div class="flex items-center justify-center">
-        <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-sm p-6 bg-white border border-gray-950 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <span class="mr-5 flex dark:hidden">
             <span onclick="darkmode()">
               <svg height="24" width="24" stroke="currentColor" fill="none" stroke-width="2" viewBox="-5.28 -5.28 34.56 34.56" fill="none" xmlns="http://www.w3.org/2000/svg" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)">
@@ -73,14 +56,17 @@
           </div>
           <hr class="w-48 h-1 bg-lime-950 border-0 rounded md:my-10 dark:bg-lime-500" />
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">My Quotes</h5>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Kalo kamu merasa capek maka tidur lah di kasur bukan di pundak orang</p>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Seperti bergulat melawan seekor gorila. Kamu tidak berhenti ketika kamu lelah, kamu berhenti ketika gorila tersebut lelah</p>
           <div class="flex items-center justify-center">
-            <div class="grid grid-cols-4 gap-4">
-              <a class="font-bold text-2xl b-sportify" href="#" title="Github">
+            <div class="grid grid-cols-4 gap-2">
+              <a class="font-bold text-2xl b-sportify" href="https://open.spotify.com/user/31n75unhqxw7q747ihdkwwznupua" target="_blank" rel="nofollow" title="Github">
                 <i class="bx bxl-spotify" style="font-size: 35px"></i>
               </a>
-              <a class="font-bold b-discord" href="#">
+              <a class="font-bold b-discord" href="https://discord.com/invite/xHQhrDm4dA" target="_blank" rel="nofollow">
                 <i class="bx bxl-discord-alt" style="font-size: 35px"></i>
+              </a>
+              <a class="font-bold" href="https://www.youtube.com/@fkri__17?sub_confirmation=1" target="_blank" rel="nofollow">
+                <i class='bx bxl-youtube'style="font-size: 35px; color: #FF0000;"></i>
               </a>
             </div>
           </div>
@@ -101,6 +87,12 @@
               Instagram
               <span class="text-2xl ms-1">
                 <i class="bx bxl-instagram"></i>
+              </span>
+            </a>
+            <a href="https://twitter.com/bintangFikri3" target="_blank" rel="nofollow" class="inline-flex items-center px-3 py-2 font-medium text-white bg-sky-600 hover:bg-sky-700 zoom-1 rounded-full">
+              Twitter
+              <span class="text-2xl ms-1">
+                <i class='bx bxl-twitter'></i>
               </span>
             </a>
             <a href="https://sociabuzz.com/muhammadfikriardiyansah" target="_blank" rel="nofollow" class="inline-flex items-center px-3 py-2 font-medium text-white bg-sky-600 hover:bg-sky-700 zoom-1 rounded-full">
